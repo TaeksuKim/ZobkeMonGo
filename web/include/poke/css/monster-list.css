@@ -1,0 +1,120 @@
+.clickable {
+    cursor: pointer;
+}
+
+.card-header {
+    padding: 8 12 8 12;
+}
+
+.monster-root-panel {
+    margin-bottom: 0;
+    padding: 4px;
+}
+
+.monster-detail-panel {
+    padding: 4px;
+}
+
+.monster-face-panel {
+    width: 100%;
+    text-align: center;
+}
+
+.monster-face-panel.none {
+    background-color: rgba(175, 175, 175, 0.1);
+}
+
+.monster-face-panel.unique {
+    background-color: rgba(0, 0, 255, 0.0);
+}
+
+.monster-face-panel.ordinary {
+}
+
+.monster-face-image {
+    margin: 10px;
+    'opacity': 1.0;
+    width: auto;
+}
+
+.monster-face-image.normal {
+    height: 120px;
+    max-width: 120;
+    max-height: 120;
+}
+
+.monster-face-image.small {
+    height: 36px;
+    max-width:36px;
+    max-height:36px;
+}
+
+.monster-face-image.none {
+    'opacity': 0.3;
+}
+
+.owner-button {
+    position: absolute;
+    right: 0;
+}
+
+.monster-number, .monster-name {
+    font-size: 14;
+}
+
+.have-button {
+    display: none;
+}
+
+.have-button.visible {
+    display: block;
+}
+
+.owner-list-sub-item {
+    padding-left: 30px;
+}
+
+#have-button {
+    cursor: pointer;
+}
+
+.monster-count-label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.monster-count-label.rare {
+    color: #0275d8;
+}
+
+.monster-count-label.normal {
+    color: #636c72;
+}
+
+.monster-count-label.unfound {
+    color: #d9534f;
+}
+
+.monster-count-label.small {
+    font-size: 12px;
+    font-style: italic;
+    color: #c1c1c1;
+}
+
+.monster-owner-text.normal {
+    font-size: 36px;
+}
+
+.monster-owner-text.small {
+    font-size: 12px;
+}
+
+.logout-panel {
+    min-height:40;
+    height:40;
+}
+
+.logout-button {
+    position: absolute;
+    right: 14;
+}
