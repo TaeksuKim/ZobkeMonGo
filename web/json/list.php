@@ -57,12 +57,11 @@ for ($i = 0; $i < $count; $i++) {
     $ownerCount = $obj['ownerCount'];
     $newItem = $obj['newItem'];
     $output .= "{";
-    $output .= "\"monster_id\": \"$monsterId\", ";
-    $output .= "\"monster_number\": \"$monsterNumber\", ";
-    $output .= "\"monster_name\": \"$monsterName\", ";
-    $output .= "\"monster_image\": \"$monsterImage\", ";
-    $output .= "\"owner_count\": \"$ownerCount\", ";
-    $output .= "\"new_item\": \"$newItem\" ";
+    $output .= "\"monsterId\": \"$monsterId\", ";
+    $output .= "\"number\": \"$monsterNumber\", ";
+    $output .= "\"name\": \"$monsterName\", ";
+    $output .= "\"ownerCount\": \"$ownerCount\", ";
+    $output .= "\"isNew\": \"$newItem\" ";
     $output .= "}";
     if ($i < $count - 1) {
         $output .= ",";

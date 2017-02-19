@@ -1,7 +1,7 @@
 <?php
 include('../db_connect.inc');
 
-$userKey = $_GET["key"];
+$userKey = $_GET["userKey"];
 
 $sql = "SELECT USER_ID, LOGIN_ID, USER_NAME, USER_KEY FROM POKE_USER WHERE USER_KEY = '$userKey'";
 $retval = mysql_query( $sql, $conn );

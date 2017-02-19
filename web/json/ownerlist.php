@@ -29,7 +29,6 @@ while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
 
 $output = "{";
 $output .= "\"status\":\"OK\",";
-$output .= "\"monser_id\":\"$monsterId\",";
 $output .= "\"owners\": [";
 $count = count($object);
 for ($i = 0; $i < $count; $i++) {
@@ -38,9 +37,8 @@ for ($i = 0; $i < $count; $i++) {
     $loginId = $obj['loginId'];
     $userName = $obj['userName'];
     $output .= "{";
-    $output .= "\"user_id\": \"$userId\", ";
-    $output .= "\"login_id\": \"$loginId\", ";
-    $output .= "\"user_name\": \"$userName\" ";
+    $output .= "\"loginId\": \"$loginId\", ";
+    $output .= "\"userName\": \"$userName\" ";
     $output .= "}";
     if ($i < $count - 1) {
         $output .= ",";

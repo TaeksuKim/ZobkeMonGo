@@ -25,7 +25,8 @@ $output .= "\"status\":\"OK\",";
 $output .= "\"monsters\": [";
 $count = count($object);
 for ($i = 0; $i < $count; $i++) {
-    $output .= $object[$i];
+    $monsterId = $object[$i];
+    $output .= "\"monsterId\": \"$monsterId\", ";
     if ($i < $count - 1) {
         $output .= ",";
     }

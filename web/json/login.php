@@ -38,7 +38,6 @@ if (!$found) {
 
 $output = "{";
 $output .= "\"status\":\"OK\"";
-$output .= ",\"userId\":\"$userId\"";
 $output .= ",\"loginId\":\"$loginId\"";
 $output .= ",\"userName\":\"$userName\"";
 $output .= ",\"userKey\":\"$userKey\"";
